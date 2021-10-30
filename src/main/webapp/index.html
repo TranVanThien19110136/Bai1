@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Murach's Java Servlets and JSP</title>
+<link rel="stylesheet" href="styles/style.css" type="text/css" />
+</head>
+<body>
+	<div class="container-ex1">
+		<div class="box-ex1">
+			<h1 class="heading-ex1">Join our email list</h1>
+			<p class="subheading-ex1">To join our email list, enter your name
+				and email address below.</p>
+			<form class="form-ex1" action="emailList" method="post">
+				<input type="hidden" name="action" value="add"> <label
+					class="label-ex1">Email:</label> <input class="input-text-ex1"
+					type="email" name="email" placeholder="VD: group7@gmail.com"
+					required> <label class="label-ex1">First Name:</label> <input
+					class="input-text-ex1" type="text" name="firstName"
+					placeholder="VD: Thuong" required> <label class="label-ex1">Last
+					Name:</label> <input class="input-text-ex1" type="text" name="lastName"
+					placeholder="VD: Le Cong" required> <label>&nbsp;</label> <input
+					class="btn-ex1" type="submit" value="Join Now" id="submit">
+			</form>
+		</div>
+	</div>
+</body>
+</html>
